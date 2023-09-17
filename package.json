@@ -10,8 +10,7 @@
     "@emotion/styled": "^11.10.8",
     "@mui/icons-material": "5.11.16",
     "@mui/material": "^5.12.3",
-
-    "aws-sdk": "^2.1420.0",
+    "aws-sdk": "^2.1459.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.45.1",
