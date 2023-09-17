@@ -1,6 +1,6 @@
 
+import AWS from 'aws-sdk';
 const sendMessage = () =>{
-  var AWS = require('aws-sdk');
   AWS.config.update({region: 'us-east-1'});
   var params = {
     Message: 'prueba codigo', /* required */
