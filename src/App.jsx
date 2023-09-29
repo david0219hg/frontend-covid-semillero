@@ -1,7 +1,8 @@
-
 import AWS from 'aws-sdk';
+
 const sendMessage = () =>{
-  AWS.config.update({region: 'us-east-1'});
+  AWS.config.update({region: 'us-east-1',   accessKeyId: 'AKIAV7BV7KRP7AFNAO3J',
+  secretAccessKey: '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'});
   var params = {
     Message: 'prueba codigo', /* required */
     TopicArn: 'arn:aws:sns:us-east-1:410282579039:semillero_prueba'
